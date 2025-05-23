@@ -1,0 +1,40 @@
+# Port Forwarding Guide for Donut Haven Website
+
+## Quick Solution for Remote Access
+
+1. **Continue using your express_server.js**
+   - This server is already working well on your local network (192.168.100.2:8080)
+
+2. **Set up Port Forwarding on your Router**
+   - Open your web browser and enter: 192.168.100.1 (or 192.168.1.1)
+   - Login to your router (check router label for default credentials)
+   - Find "Port Forwarding" section (might be under "Advanced Settings")
+   - Create a new rule with these settings:
+     * Protocol: TCP/UDP or Both
+     * External Port: 8080 (or 80 if you want standard HTTP)
+     * Internal IP: 192.168.100.2 (your computer's IP)
+     * Internal Port: 8080
+     * Enable/Save the rule
+
+3. **Find your Public IP Address**
+   - Visit https://whatismyip.com or simply Google "what is my ip"
+   - Your public IP will look like: 203.0.113.X
+
+4. **Share your website**
+   - Anyone on the internet can now access your site at: http://YOUR_PUBLIC_IP:8080
+   - Example: http://203.0.113.25:8080
+
+## Important Notes
+
+- **Dynamic IP Issue:** Most home internet connections have dynamic IPs that change periodically. Consider using a Dynamic DNS service like no-ip.com to get a permanent domain name.
+
+- **Firewall Settings:** Make sure Windows Firewall allows incoming connections on port 8080:
+  1. Open Windows Defender Firewall (search in Start menu)
+  2. Click "Advanced settings"
+  3. Select "Inbound Rules" → "New Rule"
+  4. Choose "Port" → "TCP" → "Specific local ports: 8080" → Allow connection → Apply to all profiles → Name it "Donut Haven Server"
+
+- **Security Considerations:**
+  - Opening ports increases security exposure
+  - Consider using a VPN for private access instead
+  - Only keep the port open when needed 

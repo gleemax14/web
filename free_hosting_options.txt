@@ -1,0 +1,51 @@
+# Free Hosting Options for Donut Haven Website
+
+## Option 1: Netlify (Easiest)
+1. Create a free account at netlify.com
+2. Install Git if you don't have it already (git-scm.com)
+3. Create a GitHub account (github.com)
+4. Create a new repository for your website
+5. Push your website files (except server.js files) 
+6. Connect Netlify to your GitHub repository
+7. Deploy your site with a click
+
+NOTE: Netlify only hosts static websites, so you'll need to remove server-side functionality or convert to client-side only.
+
+## Option 2: Render.com
+1. Create a free account at render.com
+2. Create a new Web Service
+3. Connect to your GitHub repository (or upload files)
+4. Set the build command: `npm install`
+5. Set the start command: `node express_server.js`
+6. Deploy and get a free subdomain like donuthaven.onrender.com
+
+NOTE: Free tier may sleep after inactivity periods.
+
+## Option 3: Glitch.com
+1. Create a free account at glitch.com
+2. Create a new project
+3. Upload your files or copy/paste code
+4. Glitch automatically hosts your Node.js app
+5. Get a free subdomain like donuthaven.glitch.me
+
+NOTE: Projects may sleep after inactivity on free tier.
+
+## Option 4: Railway.app
+1. Create a free account at railway.app
+2. Create a new project
+3. Connect to GitHub or deploy from template
+4. Configure environment: Node.js
+5. Get a free subdomain
+
+NOTE: Free tier has usage limits.
+
+## Easiest 5-Minute Solution:
+1. Go to Glitch.com
+2. Create an account/Sign in
+3. Create a new project
+4. Upload your HTML, CSS, JS files and images
+5. Create a package.json file with express dependency
+6. Upload your express_server.js
+7. Click "Share" to get your public URL
+
+No credit card or complex setup required! 

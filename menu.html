@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Thick and Thin</title>
+    <link rel="icon" type="image/png" href="images/thick-and-thin-hero-graphic.png">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/thick-and-thin-hero-graphic.png" alt="Thick and Thin Logo" id="logo-img">
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Menu Hero Section -->
+    <section class="menu-hero">
+        <div class="menu-hero-content">
+            <h1>Our Menu</h1>
+            <p>Delight yourself with our freshly baked donuts and other treats</p>
+        </div>
+    </section>
+
+    <!-- Menu Categories -->
+    <section class="menu-tabs">
+        <div class="container">
+            <div class="tab-buttons">
+                <button class="tab-btn active" data-tab="classic">Classic Donuts</button>
+                <button class="tab-btn" data-tab="premium">Premium Donuts</button>
+                <button class="tab-btn" data-tab="supreme">Supreme Donuts</button>
+                <button class="tab-btn" data-tab="assorted">Assorted & Baby Donuts</button>
+                <button class="tab-btn" data-tab="drinks">Drinks</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Items -->
+    <section class="menu-items">
+        <div class="container">
+            <!-- Classic Donuts -->
+            <div class="menu-category active" id="classic">
+                <h2>Classic Donuts</h2>
+                <p class="category-description">Our delicious classic donuts</p>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/choco-tiger.jpg" alt="Choco Tiger">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Choco Tiger</h3>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/strawberry-sprinkles.jpg" alt="Strawberry Sprinkles">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Strawberry Sprinkles</h3>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/choco-marble.jpg" alt="Choco Marble">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Choco Marble</h3>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/choco-snow.jpg" alt="Choco Snow">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Choco Snow</h3>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/white-choco.jpg" alt="White Choco">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>White Choco</h3>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/choco-sprinkle.jpg" alt="Choco Sprinkle">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Choco Sprinkle</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Premium Donuts -->
+            <div class="menu-category" id="premium">
+                <h2>Premium Donuts</h2>
+                <p class="category-description">Our signature donuts with premium toppings and fillings</p>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/purple-yam.jpg" alt="Purple Yam">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Purple Yam</h3>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/double-dutch.jpg" alt="Double Dutch">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Double Dutch</h3>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/snow-yema.jpg" alt="Snow Yema">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Snow Yema</h3>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/romantic-melon.jpg" alt="Romantic Melon">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Romantic Melon</h3>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/snow-bavarian.jpg" alt="Snow Bavarian">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Snow Bavarian</h3>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/choco-cashew.jpg" alt="Choco Cashew">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Choco Cashew</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Supreme Donuts -->
+            <div class="menu-category" id="supreme">
+                <h2>Supreme Donuts</h2>
+                <p class="category-description">Our most extravagant and flavorful donuts</p>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/choco-double-caramel.jpg" alt="Choco Double Caramel">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Choco Double Caramel</h3>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/triple-strawberry.jpg" alt="Triple Strawberry">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Triple Strawberry</h3>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/oreoberry.jpg" alt="Oreoberry">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Oreoberry</h3>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/almond-king.jpg" alt="Almond King">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Almond King</h3>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/choco-bavarian.jpg" alt="Choco Bavarian">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Choco Bavarian</h3>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/mango-bravo.jpg" alt="Mango Bravo">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Mango Bravo</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Assorted & Baby Donuts -->
+            <div class="menu-category" id="assorted">
+                <h2>Assorted & Baby Donuts</h2>
+                <p class="category-description">Perfect for sharing and trying a bit of everything</p>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/assorted-half-dozen.jpg" alt="Assorted Half Dozen">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Assorted Half Dozen</h3>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/assorted-one-dozen.jpg" alt="Assorted One Dozen">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Assorted One Dozen</h3>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/baby-donuts.jpg" alt="Baby Donuts (15 pcs)">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Baby Donuts (15 pcs)</h3>
+                        </div>
+                    </div>
+                     <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/personalized-donuts.jpg" alt="Personalized Donuts">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Personalized Donuts</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Drinks -->
+            <div class="menu-category" id="drinks">
+                <h2>Drinks</h2>
+                <p class="category-description">Refreshing beverages to pair with your donuts</p>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/lemonade-watermelon.jpg" alt="Lemonade Watermelon">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Lemonade - Watermelon</h3>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/lemonade-strawberry.jpg" alt="Lemonade Strawberry">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Lemonade - Strawberry</h3>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/lemonade-blueberry.jpg" alt="Lemonade Blueberry">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Lemonade - Blueberry</h3>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/lemonade-lychee.jpg" alt="Lemonade Lychee">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Lemonade - Lychee</h3>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/lemonade-green-apple.jpg" alt="Lemonade Green Apple">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Lemonade - Green Apple</h3>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/iced-coffee-macchiato-barako.jpg" alt="Iced Coffee Macchiato Barako">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Iced Coffee - Macchiato Barako</h3>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/iced-coffee-white-coffee.jpg" alt="Iced Coffee White Coffee">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Iced Coffee - White Coffee</h3>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/iced-coffee-cappuccino.jpg" alt="Iced Coffee Cappuccino">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Iced Coffee - Cappuccino</h3>
+                        </div>
+                    </div>
+                     <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/non-coffee-strawberry-milk-choco.jpg" alt="Non Coffee Strawberry Milk Choco">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Non Coffee - Strawberry Milk Choco</h3>
+                        </div>
+                    </div>
+                     <div class="menu-item">
+                        <div class="menu-item-img">
+                            <img src="images/non-coffee-cookies-and-cream.jpg" alt="Non Coffee Cookies and Cream">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Non Coffee - Cookies and Cream</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- General Product Pricing -->
+    <section class="general-pricing-section">
+        <div class="container">
+            <h2>OUR PRODUCTS</h2>
+            <p class="pricing-subtitle">Classic Donut Prices</p>
+            <ul>
+                <li>
+                    <span class="quantity">Half Dozen</span>
+                    <span class="price-value">250</span>
+                </li>
+                <li>
+                    <span class="quantity">1 Dozen</span>
+                    <span class="price-value">450</span>
+                </li>
+                <li>
+                    <span class="quantity">Per piece</span>
+                    <span class="price-value">40</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="menu-cta">
+        <div class="container">
+            <h2>Ready to order?</h2>
+            <p>Visit one of our locations or contact us for special orders and catering</p>
+            <div class="cta-buttons">
+                <a href="locations.html" class="btn cta-find-location-btn">Find a Location</a>
+                <a href="contact.html" class="btn cta-contact-btn">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h2>Your perfect circle of happiness</h2>
+                <p>Bring joy to your taste buds and buy some donuts at Thick and Thin.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="locations.html">Locations</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact">
+                <h3>Get in Touch</h3>
+                <ul>
+                    <li><i class="fas fa-envelope"></i> thickandthin.franchise@gmail.com</li>
+                    <li><i class="fas fa-phone"></i> (123) 456-7890</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Thick and Thin Cafe, Brgy. 1 Sta. Rita, Bacarra, Ilocos Norte</li>
+                    <li><i class="fas fa-clock"></i> Monday to Saturday<br>9 am - 6 pm</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2023 Thick and Thin</p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/menu.js"></script>
+</body>
+</html> 
